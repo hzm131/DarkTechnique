@@ -1,0 +1,72 @@
+
+.bgck{
+    background: linear-gradient(to right, #16be9b, #0874aa);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #16be9b, endColorstr = #0874aa);
+    position: relative;
+}
+.nav_div1{
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+.nav_div1 .nav_span{
+    color:#fff;
+    font-size: 18px;
+
+}
+.nav_div1 .ii{
+    color:#fff;
+    font-size: 18px;
+}
+.nav_div2{
+    position:absolute;
+    top: 25%;
+    right:3%;
+    color:rgba(255,255,255,0.8);
+
+}
+.nav_div2 .ii3{
+    margin-left: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.nav_span3{
+    vertical-align: middle;
+}
+.div_biao{
+    width: 50%;
+    height: 35px;
+}
+.iii1{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #16be9b;
+    margin-right: 5px;
+}
+.h44 {
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px ) {
+    .nav_span3{
+        display: none;
+    }
+    .bgck{
+        width: 100%;
+    }
+    .div_btn{
+        width: 100%;
+    }
+}
